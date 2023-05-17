@@ -1,0 +1,108 @@
+.banner{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imagen{
+  width: 80%;  
+}
+.header{
+  background-color:rgb(192, 0, 98); 
+}
+
+.navbar{
+  background-color:rgb(192, 0, 98) !important;
+}
+
+.navbar-collapse{
+  background-color:rgb(192, 0, 98);  
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  justify-content: center;
+  flex-basis: auto;
+}
+.llave{
+  width:30px;
+}
+
+body{
+  background-color:rgb(192, 0, 98); 
+}
+
+li{
+	color: white;
+}
+
+ul{ 
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.lista a{
+	text-decoration: none;
+	color:white;
+}
+
+.lista{
+	margin:30px;
+	font-family: "bodoni-urw", serif;
+	font-size: 22px;
+}
+.blanco{
+  background-color:white;  
+  
+}
+h5{
+  font-family: "bodoni-urw", serif;
+	font-size: 50px;
+    color: white;
+}
+.blanco h2{
+  padding: 15px;
+  color:rgb(102, 45, 145) ;
+}
+.imgfondo{
+background-image: url(../img/fondo1.png);
+background-size: cover;
+height: 100vh;
+display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.juego{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	background-color: green;
+}
+
+.person{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: flex-end;
+}
+
+.col{
+	width:30%;
+}
+
+.col img{
+	width: 100%;
+}
+
+.footer{
+    background-color: plum;
+    height:30vh;
+}
