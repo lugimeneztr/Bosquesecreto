@@ -33,45 +33,46 @@ body{
 }
 
 li{
-	color: white;
+	color: white !important ;
 }
 
 ul{ 
 	display:flex;
 	flex-direction:row;
 	justify-content:space-evenly;
-	color: white;
+	color: white !important;
 }
 a{
-	text-decoration: none;
-	color: white;
+	text-decoration: none !important;
+	color: white !important;
 }
 .lista a{
-	text-decoration: none;
-	color:white;
+	text-decoration: none !important;
+	color:white!important;
 }
 
 .lista{
 	margin:30px;
-	font-family: "bodoni-urw", serif;
+	font-family: "bodoni-urw", serif !important;
 	font-size: 22px;
 }
 .blanco{
-  background-color:white;  
+  background-color:white; 
+  padding:50px;
   
 }
 h5{
-  font-family: "bodoni-urw", serif;
+  font-family: "bodoni-urw", serif !important;
 	font-size: 50px;
-    color: white;
+    color: white!important;
 }
 .blanco h2{
   padding: 15px;
   color:rgb(102, 45, 145) ;
 }
 .imgfondo{
-background-image: url(../img/fondo1.png);
 background-size: cover;
+background-image:url("../img/fondo1.png")!important ;
 height: 100vh;
 display: flex;
 	flex-direction: row;
@@ -80,11 +81,19 @@ display: flex;
 	text-align: center;
 }
 .juego{
-	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: center;
-	background-color: green;
+	background-color: #1D3617;
+	width: 100%;
+	padding: 30px;
+}
+
+.juego img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+h3{
+	color: white;
+	font-size: 20px;
 }
 
 .person{
