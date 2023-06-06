@@ -59,7 +59,8 @@ a{
 .blanco{
   background-color:white; 
   padding:50px;
-  
+  padding-bottom:150px;
+padding-top: 150px;
 }
 h5{
   font-family: "bodoni-urw", serif !important;
@@ -109,6 +110,17 @@ h3{
 
 .col img{
 	width: 100%;
+}
+
+.instru{
+	background-color:plum;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+		
+}
+.texto{
 }
 
 .footer{
