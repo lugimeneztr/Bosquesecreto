@@ -118,9 +118,17 @@ h3{
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 30px;
-		
+	padding-top: 30px;	
 }
 .texto{
+	width: 100%;
+}
+
+.texto img{
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
 }
 
 .footer{
